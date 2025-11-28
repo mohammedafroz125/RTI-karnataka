@@ -1,0 +1,64 @@
+======================================================================
+MISSING KARNATAKA RTI PDFs
+======================================================================
+
+These PDFs need to be created manually:
+
+ 1. RTI Karnataka Finance & Revenue
+     File: RTI Template for Karnataka Treasuries Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Finance & Revenue\RTI Template for Karnataka Treasuries Department.pdf
+
+ 2. RTI Karnataka Transport & Infrastructure
+     File: RTI Template for Karnataka Municipal Administration Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Transport & Infrastructure\RTI Template for Karnataka Municipal Administration Department.pdf
+
+ 3. RTI Karnataka Transport & Infrastructure
+     File: RTI Template for Karnataka Infrastructure Development Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Transport & Infrastructure\RTI Template for Karnataka Infrastructure Development Department.pdf
+
+ 4. RTI Karnataka Education & Health
+     File: RTI Template for Karnataka Higher Education Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Education & Health\RTI Template for Karnataka Higher Education Department.pdf
+
+ 5. RTI Karnataka Education & Health
+     File: RTI Template for Karnataka Technical Education Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Education & Health\RTI Template for Karnataka Technical Education Department.pdf
+
+ 6. RTI Karnataka Education & Health
+     File: RTI Template for Karnataka Medical Education Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Education & Health\RTI Template for Karnataka Medical Education Department.pdf
+
+ 7. RTI Karnataka Agriculture & Rural Development
+     File: RTI Template for Karnataka Agriculture Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Agriculture & Rural Development\RTI Template for Karnataka Agriculture Department.pdf
+
+ 8. RTI Karnataka Agriculture & Rural Development
+     File: RTI Template for Karnataka Horticulture Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Agriculture & Rural Development\RTI Template for Karnataka Horticulture Department.pdf
+
+ 9. RTI Karnataka Agriculture & Rural Development
+     File: RTI Template for Karnataka Animal Husbandry & Veterinary Services Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Agriculture & Rural Development\RTI Template for Karnataka Animal Husbandry & Veterinary Services Department.pdf
+
+10. RTI Karnataka Agriculture & Rural Development
+     File: RTI Template for Karnataka Co-operation Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Agriculture & Rural Development\RTI Template for Karnataka Co-operation Department.pdf
+
+11. RTI Karnataka Social Welfare
+     File: RTI Template for Karnataka Scheduled Tribes Welfare Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Social Welfare\RTI Template for Karnataka Scheduled Tribes Welfare Department.pdf
+
+12. RTI Karnataka Commerce & Industry
+     File: RTI Template for Karnataka Handlooms & Textiles Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Commerce & Industry\RTI Template for Karnataka Handlooms & Textiles Department.pdf
+
+13. RTI Karnataka Information & Technology
+     File: RTI Template for Karnataka e-Governance Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Information & Technology\RTI Template for Karnataka e-Governance Department.pdf
+
+14. RTI Karnataka Culture & Tourism
+     File: RTI Template for Karnataka Religious & Charitable Endowments Department.pdf
+     Full Path: Frontend\src\assets\PDF\karnataka\RTI Karnataka Culture & Tourism\RTI Template for Karnataka Religious & Charitable Endowments Department.pdf
+
+
+Total: 14 PDFs
