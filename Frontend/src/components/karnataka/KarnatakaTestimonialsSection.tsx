@@ -10,21 +10,21 @@ export const KarnatakaTestimonialsSection: React.FC = () => {
       designation: 'Business Owner, Bangalore',
       image: '/images/human1.webp',
       rating: 4.8,
-      text: 'I was concerned about the complexity of filing RTI applications across different Karnataka departments. The service I received was exceptional. The team handled everything professionally and I received my information within the promised timeframe. The process was transparent and I never felt uncertain about the status of my application.'
+      text: 'I was concerned about the complexity of filing RTI applications across different Karnataka departments. The service I received was exceptional. The team handled everything professionally and I received my information within the promised timeframe. The process was transparent and I never felt uncertain about the status of my application. Their proactive follow-ups and constant updates reassured me that every document was moving forward without delay. From the first call to the final dispatch of my RTI, every step was clearly explained, which gave me complete confidence in using this service again for future matters.'
     },
     {
       name: 'Priya Sharma',
       designation: 'Social Activist, Mysore',
       image: '/images/lady.webp',
       rating: 4.9,
-      text: 'Filing multiple RTI applications for our NGO was always time-consuming. This platform simplified everything. The tracking system is excellent, and the support team is incredibly helpful. They guided us through every step and ensured all our applications were properly submitted.'
+      text: 'Filing multiple RTI applications for our NGO was always time-consuming. This platform simplified everything. The tracking system is excellent, and the support team is incredibly helpful. They guided us through every step and ensured all our applications were properly submitted. Even when we had urgent clarifications, the team responded instantly and suggested practical improvements for future filings. Because of their detailed guidance, our team now feels far more confident about planning RTI-based campaigns and using government data in our awareness work.'
     },
     {
       name: 'Anil Reddy',
       designation: 'Journalist, Hubli',
       image: '/images/human2.webp',
       rating: 5.0,
-      text: 'As a journalist, I frequently need information from government departments. This service has been a game-changer. The priority processing option saved me weeks of waiting time. The team\'s knowledge of RTI procedures is outstanding, and they helped me frame my queries more effectively.'
+      text: 'As a journalist, I frequently need information from government departments. This service has been a game-changer. The priority processing option saved me weeks of waiting time. The team\'s knowledge of RTI procedures is outstanding, and they helped me frame my queries more effectively. Their edits to my draft questions made the replies crisp, detailed, and immediately usable for my investigative pieces. Having a reliable RTI partner has significantly reduced my research time and allowed me to focus on analysis instead of chasing paperwork.'
     }
   ];
 
@@ -69,9 +69,9 @@ export const KarnatakaTestimonialsSection: React.FC = () => {
         <div className="relative">
           {/* Testimonial Card */}
           <div className={`bg-white p-6 md:p-8 rounded-xl shadow-lg relative transition-all duration-300 ${isAnimating ? 'opacity-50 scale-95' : 'opacity-100 scale-100'}`}>
-            <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
-              {/* LEFT COLUMN - Avatar & Details (30-35% width) */}
-              <div className="flex-shrink-0 lg:w-[35%] flex flex-col items-center lg:items-start">
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-4">
+              {/* LEFT COLUMN - Avatar & Details (auto width next to text) */}
+              <div className="flex-shrink-0 lg:w-auto lg:pr-4 flex flex-col items-center lg:items-start">
                 {/* Circular Avatar */}
                 <div className="flex h-16 w-16 md:h-20 md:w-20 items-center justify-center rounded-full overflow-hidden mb-3 ring-2 ring-primary-100 bg-gray-100">
                   <img 
@@ -111,22 +111,12 @@ export const KarnatakaTestimonialsSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* RIGHT COLUMN - Testimonial Text (65-70% width) */}
-              <div className="flex-1 lg:w-[65%] relative">
-                {/* Opening Quote Icon - Top Left */}
-                <div className="absolute top-0 left-0 text-primary-400 text-4xl md:text-5xl font-serif opacity-60 leading-none">
-                  "
-                </div>
-
+              {/* RIGHT COLUMN - Testimonial Text (fills remaining space) */}
+              <div className="flex-1 relative">
                 {/* Testimonial Text */}
-                <p className="text-gray-700 text-sm md:text-base leading-relaxed relative z-10 pt-4 lg:pt-0 pl-6 lg:pl-8">
+                <p className="text-gray-700 text-sm md:text-base leading-relaxed relative z-10 mb-0">
                   {currentTestimonial.text}
                 </p>
-
-                {/* Closing Quote Icon - Bottom Right */}
-                <div className="absolute bottom-0 right-0 text-primary-400 text-4xl md:text-5xl font-serif transform rotate-180 opacity-60 leading-none">
-                  "
-                </div>
               </div>
             </div>
           </div>
