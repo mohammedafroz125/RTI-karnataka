@@ -110,15 +110,15 @@ export const KarnatakaAllServicesSection: React.FC = () => {
             const serviceDetails: Record<string, { bullets: string[]; price: string }> = {
               '1': {
                 bullets: ['Expert RTI drafting', 'Online submission support', 'Application tracking', 'Timely dispatch'],
-                price: 'Starts at ₹299'
+                price: 'Flat fee ₹699'
               },
               '2': {
                 bullets: ['Complete anonymity', 'Secure filing process', 'Identity protection', 'Professional handling'],
-                price: 'Starts at ₹499'
+                price: 'Flat fee ₹699'
               },
               '3': {
                 bullets: ['Expert appeal drafting', 'Legal review', 'Quick submission', 'Appeal tracking'],
-                price: 'Starts at ₹399'
+                price: 'Flat fee ₹699'
               },
               '4': {
                 bullets: ['Multiple RTI handling', 'Bulk processing', 'Volume discounts', 'Dedicated support'],
@@ -126,7 +126,7 @@ export const KarnatakaAllServicesSection: React.FC = () => {
               },
               '5': {
                 bullets: ['Custom RTI drafting', 'Personalized approach', 'Expert consultation', 'Tailored solutions'],
-                price: 'Starts at ₹599'
+                price: 'Flat fee ₹699'
               },
               '6': {
                 bullets: ['15 minutes expert call', 'RTI strategy suggestion', 'Basic drafting guidance', 'Quick consultation'],
