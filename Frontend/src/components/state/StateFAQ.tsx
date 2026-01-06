@@ -10,7 +10,7 @@ interface StateFAQProps {
 }
 
 const StateFAQComponent: React.FC<StateFAQProps> = ({ faqs }) => {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleFAQ = useCallback((index: number) => {
     setOpenIndex(prevIndex => prevIndex === index ? null : index);

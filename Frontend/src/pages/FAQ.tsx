@@ -55,10 +55,6 @@ export const FAQPage: React.FC = () => {
       a: 'If you don\'t receive a response within the stipulated time, you can file a First Appeal with the First Appellate Authority (FAA) within 30 days. If the FAA doesn\'t respond or you\'re not satisfied with the response, you can file a Second Appeal with the Central Information Commission (CIC) or State Information Commission (SIC) within 90 days.'
     },
     {
-      q: 'Can I file RTI to Karnataka Secretariat online?',
-      a: 'Yes, you can file RTI applications to Karnataka Secretariat (Vidhana Soudha) and all state departments online through FileMyRTI. We handle drafting, submission, and tracking for you without requiring you to visit government offices.'
-    },
-    {
       q: 'How long does RTI reply take in Karnataka?',
       a: 'As per RTI Act 2005, government departments in Karnataka must respond within 30 days. In case of information concerning the life or liberty of a person, the response must be provided within 48 hours. If the application is transferred to another authority, the response time is 35 days.'
     },
@@ -74,10 +70,6 @@ export const FAQPage: React.FC = () => {
 
   // Karnataka-Specific FAQs
   const karnatakaFAQs: FAQ[] = [
-    {
-      q: 'Can I file RTI to Karnataka Secretariat online?',
-      a: 'Yes, you can file RTI applications to Karnataka Secretariat (Vidhana Soudha) and all state departments online through FileMyRTI. We handle drafting, submission, and tracking for you without requiring you to visit government offices.'
-    },
     {
       q: 'Can RTI get land details from Bhoomi portal?',
       a: 'Yes, you can file RTI to get land records, RTC copies, mutation status, and revenue information from Karnataka Bhoomi portal and Revenue Department. We help you draft and file RTI applications for land-related queries including mutations, ownership records, and property tax information.'

@@ -10,7 +10,7 @@ interface ServiceFAQProps {
 }
 
 export const ServiceFAQ: React.FC<ServiceFAQProps> = React.memo(({ faqs }) => {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);

@@ -7,10 +7,6 @@ interface FAQ {
 
 const faqs: FAQ[] = [
   {
-    q: 'Can I file RTI to Karnataka Secretariat online?',
-    a: 'Yes, you can file RTI applications to Karnataka Secretariat (Vidhana Soudha) and all state departments online through FileMyRTI. We handle drafting, submission, and tracking for you without requiring you to visit government offices.',
-  },
-  {
     q: 'Can RTI get land details from Bhoomi portal?',
     a: 'Yes, you can file RTI to get land records, RTC copies, mutation status, and revenue information from Karnataka Bhoomi portal and Revenue Department. We help you draft and file RTI applications for land-related queries.',
   },
@@ -33,7 +29,7 @@ const faqs: FAQ[] = [
 ];
 
 export const KarnatakaFAQ: React.FC = () => {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
