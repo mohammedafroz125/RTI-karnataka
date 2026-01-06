@@ -164,7 +164,7 @@ export const ContactUs: React.FC = () => {
       "telephone": "91-99111-00589",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Flat No. 202, Radhakrishna Residency, Kalyannagar Phase 3",
+        "streetAddress": "Flat No. 201, Radhakrishna Residency, Kalyannagar Phase 3",
         "addressLocality": "Hyderabad",
         "postalCode": "500045",
         "addressCountry": "IN"

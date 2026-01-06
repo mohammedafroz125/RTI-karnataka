@@ -136,7 +136,7 @@ const FooterComponent: React.FC = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Flat No. 202, Radhakrishna Residency, Kalyannagar Phase 3, Hyderabad - 500045.
+                Flat No. 201, Radhakrishna Residency, Kalyannagar Phase 3, Hyderabad - 500045.
               </p>
             </div>
             <div className="flex items-center gap-3">
